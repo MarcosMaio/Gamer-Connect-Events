@@ -8,7 +8,11 @@
     "routes": [
         {
             "src": "/build/(.*)",
-            "dest": "/public/assets/"
+            "dest": "/public/build/"
+        },
+        {
+            "src": "/resources/(.*)",
+            "dest": "/public/resources/"
         },
         {
             "src": "/favicon/(.*)",
