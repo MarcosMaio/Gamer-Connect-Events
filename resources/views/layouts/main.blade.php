@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                <img src="/img/logo.svg" alt="CODECONNECT LOGO" />
+                <img src="img/logo.svg" alt="CODECONNECT LOGO" />
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
