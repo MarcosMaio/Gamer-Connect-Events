@@ -45,7 +45,7 @@ class EventController extends Controller {
 
             $imageName = md5($requestImage->getClientOriginalName() . strtotime("now")) . "." . $extension;
 
-            $requestImage->move(public_path('img/events'), $imageName);
+            $requestImage->move(public_path('/resources/img/events/img/events'), $imageName);
 
             $event->image = $imageName;
         }
@@ -113,11 +113,11 @@ class EventController extends Controller {
 
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
 
-            unlink(public_path('img/events/' . $event->image));
+            unlink(public_path('/resources/img/events/' . $event->image));
             $requestImage = $request->image;
             $extension = $requestImage->extension();
             $imageName = md5($requestImage->getClientOriginalName() . strtotime("now")) . "." . $extension;
-            $requestImage->move(public_path('img/events'), $imageName);
+            $requestImage->move(public_path('/resources/img/events/'), $imageName);
             $data['image'] = $imageName;
         }
         Event::findOrFail($request->id)->update($data);
