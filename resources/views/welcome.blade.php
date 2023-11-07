@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Code Connect - Events')
+@section('title', 'Gamer Connect - Events')
 
 @section('content')
 
