@@ -37,14 +37,15 @@ Gamer-Connect-Events é um aplicativo web desenvolvido usando PHP, Laravel, Vite
 - Os usuários podem sair de suas contas para garantir a segurança de suas informações.
 
 ## Tecnologias usadas
+
 - PHP
 - Laravel
 - Vite
-- Lâmina
--HTML
+- Blade
+- HTML
 - CSS
--JavaScript
-- Tailwind Css
+- JavaScript
+- Tailwind CSS
 - MySQL
 
 ## Licença
