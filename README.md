@@ -1,4 +1,4 @@
-# Eventos Gamer-Connect
+# Gamer-Connect-Events
 
 Gamer-Connect-Events é um aplicativo web desenvolvido usando PHP, Laravel, Vite, Blade, HTML, CSS, JavaScript, Tailwind CSS e MySQL. Esta plataforma permite aos utilizadores descobrir e participar em eventos de jogos que decorrem em todo o país. Os usuários podem criar contas, fazer login e acessar uma ampla gama de recursos, todos armazenados no banco de dados.
 
